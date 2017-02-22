@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JavaScript
 
 ###FLUJO DE CONTROL
@@ -240,3 +241,30 @@ onmouseover Se activa cuando el puntero del ratón se mueve sobre un elemento
 onmouseup Cuando se suelta un botón del ratón sobre un elemento
 onscroll Se ejecuta cuando se está desplazando la barra de desplazamiento de un elemento
 onwheel Se activa cuando la rueda del ratón hacia arriba o hacia abajo Rodillos sobre un elemento
+=======
+# JAVASCRIPT
+
+
+
+
+## Recursos
+
+[Pagina de jemplos](https://carlosazaustre.es/blog/ecmascript-6-el-nuevo-estandar-de-javascript/)
+
+
+
+
+
+
+## Codigos de ejemplo
+~~~
+var obj = {  
+    foo : function() {...},
+    bar : function() {
+        document.addEventListener("click", function(e) {
+            this.foo();
+        }.bind(this));
+    }
+}
+~~~
+>>>>>>> 275ca6a311a0661144044677c803e7820549fe8b
